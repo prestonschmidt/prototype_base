@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+name: teaser_image
+label: 'Teaser Image "290 x 163"'
+effects:
+  bdd99645-b55a-47b4-9337-89453c12658e:
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 290
+      height: 163
+  4f4a1ff4-f127-4693-af57-d8f0cf3c9de0:
+    id: image_resize
+    weight: 2
+    data:
+      width: 290
+      height: 163
+      

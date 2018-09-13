@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies: {  }
+id: contributor
+label: Contributor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'cancel account'
+  - 'change own username'
+  - 'create article content'
+  - 'create basic_page content'
+  - 'create forum content'
+  - 'create terms in forums'
+  - 'delete any article content'
+  - 'delete any basic_page content'
+  - 'delete any forum content'
+  - 'delete article revisions'
+  - 'delete basic_page revisions'
+  - 'delete forum revisions'
+  - 'delete own article content'
+  - 'delete own basic_page content'
+  - 'delete own forum content'
+  - 'delete terms in forums'
+  - 'edit any article content'
+  - 'edit any basic_page content'
+  - 'edit any forum content'
+  - 'edit own article content'
+  - 'edit own basic_page content'
+  - 'edit own forum content'
+  - 'edit terms in forums'
+  - 'revert article revisions'
+  - 'revert basic_page revisions'
+  - 'revert forum revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view basic_page revisions'
+  - 'view forum revisions'

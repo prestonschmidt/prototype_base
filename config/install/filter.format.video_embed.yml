@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Video Embed'
+format: video_embed
+weight: 0
+filters: {  }

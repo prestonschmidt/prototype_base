@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: basic_page_path_pattern
+label: 'Basic Page Path Pattern'
+type: 'canonical_entities:node'
+pattern: '[current-page:title]'
+selection_criteria:
+  405f8afb-6cc5-43aa-af3b-fd4ba4b6c36c:
+    id: node_type
+    bundles:
+      basic_page: basic_page
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 1440px
+label: '1440px'
+effects:
+  57b44d9b-c3e9-4dfc-a842-311a0d8e9e93:
+    id: image_scale
+    weight: 1
+    data:
+      width: 1440
+      height: null
+      upscale: false
+      

@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - forum
+id: forum_path_pattern
+label: 'Forum Path Pattern'
+type: forum
+pattern: 'forum/[term:vocabulary]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

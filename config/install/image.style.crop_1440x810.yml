@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: crop_1440x810
+label: 'Crop 1440x810'
+effects:
+  49e52a2a-4d5b-45c7-b8b9-aceecdab0bf1:
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 810
+      

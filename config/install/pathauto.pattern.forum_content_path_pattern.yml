@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: forum_content_path_pattern
+label: 'Forum Content Path Pattern'
+type: 'canonical_entities:node'
+pattern: 'forum/[node:taxonomy_forums:entity:name]/[current-page:title]'
+selection_criteria:
+  9dce4eb6-a9c5-4543-a6da-611538bd1f84:
+    id: node_type
+    bundles:
+      forum: forum
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: -5
+relationships: {  }
