@@ -63,6 +63,7 @@ permissions:
   - 'skip comment approval'
   - 'update any media'
   - 'update media'
+  - 'use text format full_html'
   - 'view all media revisions'
   - 'view any webform submission'
   - 'view article revisions'
